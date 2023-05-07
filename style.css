@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85PX;
+    width: 100%;
+    background-color: blue;  
+}
+.navbar .images img {
+    padding-left:  30px;
+}
+.nav-link{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-link li{
+    margin-right: 20px;
+}
+
+.nav-link a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.search-container{
+      display: flex;
+      align-items: center;
+}
+
+.search-container input [type="text"] {
+    padding: 7px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 20px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.search-container input[type="text"] :hover{
+    background-color: white;
+    color:blue;
+}
+.single-footer{
+    width: 25%;
+    float: left;
+    text-align: left;
+    color: #0c2461;
+    padding: 90px 0;
+}
+.single-footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.single-footer ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 0 20px;
+    font-weight: 500;
+    display: inline-block;
+    color: #0c2461;
+}
+.single-footer a{
+    text-decoration: none;
+    color: #000;
+}
+.single-footer ion-icon{
+    color: #000;
+    font-size:30px;
+    padding-left: 6px;
+    padding-top: px;
+    transition: 0.3s ease;
+}
+.single-footer ion-icon:hover{
+    color: #fff;
+}
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200PX;
+    width: 100%;
+    background-color: hsl(240, 93%, 65%);  
+}
